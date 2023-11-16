@@ -13,8 +13,8 @@ interface RoleInterface
 
     /**
      * Set propagate a role with permissinons. Default will role permission be in a denied state.
-     * @param int         $roleKey  e.g r=1&i=1&u=1&d=1 Or [self::AUTHOR => "r=1&i=1&u=1&d=0"]
-     * @param string|null $queryStr r=1&i=1&u=1&d=1
+     * @param array|int     $roleKey  e.g r=1&i=1&u=1&d=1 Or [self::AUTHOR => "r=1&i=1&u=1&d=0"]
+     * @param string|null   $queryStr r=1&i=1&u=1&d=1
      */
     public function set(array|int $roleKey, ?string $queryStr = null): void;
     
