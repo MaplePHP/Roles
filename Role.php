@@ -82,10 +82,10 @@ class Role implements RoleInterface
 
     /**
      * Get role
-     * @param  int|null $roleKey
+     * @param  int $roleKey
      * @return object
      */
-    public function getPermission(?int $roleKey): object
+    public function getPermission(int $roleKey): object
     {
         if (is_null($this->userRole)) {
             throw new RolesException("You need to specify the current users role with @setUserRole or the @constructer.", 1);
@@ -162,6 +162,6 @@ class Role implements RoleInterface
      */
     final protected function placeholder(int $role): void
     {
-        $this->data[$role] = new Permission(NULL);
+        $this->data[$role] = new Permission(null);
     }
 }

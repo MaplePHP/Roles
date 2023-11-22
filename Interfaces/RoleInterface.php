@@ -34,10 +34,10 @@ interface RoleInterface
 
     /**
      * Get role
-     * @param  int|null $roleKey
+     * @param  int $roleKey
      * @return object
      */
-    public function getPermission(?int $roleKey): object;
+    public function getPermission(int $roleKey): object;
 
     /**
      * List all currently supported roles
