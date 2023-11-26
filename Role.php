@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace PHPFuse\Roles;
+namespace MaplePHP\Roles;
 
-use PHPFuse\Roles\Exceptions\RolesException;
-use PHPFuse\Roles\Interfaces\RoleInterface;
+use MaplePHP\Roles\Exceptions\RolesException;
+use MaplePHP\Roles\Interfaces\RoleInterface;
 
 class Role implements RoleInterface
 {

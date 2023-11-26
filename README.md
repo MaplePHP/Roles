@@ -5,7 +5,7 @@ Create and manage user roles
 ### Initiate
 Initiate and set the current user role. This will usally come from the database.
 ```php
-use PHPFuse\Roles\Role;
+use MaplePHP\Roles\Role;
 
 $loggedInUserRole = 3;
 $roles = new Role($loggedInUserRole);

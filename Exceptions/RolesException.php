@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPFuse\Roles\Exceptions;
+namespace MaplePHP\Roles\Exceptions;
 
 use Exception;
 

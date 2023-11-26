@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPFuse\Roles\Interfaces;
+namespace MaplePHP\Roles\Interfaces;
 
 interface RoleInterface
 {
