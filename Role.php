@@ -98,7 +98,7 @@ class Role implements RoleInterface
      * List all currently supported roles
      * @return array
      */
-    public function getSupportedRoles(): array
+    public static function getSupportedRoles(): array
     {
         return static::ROLES;
     }

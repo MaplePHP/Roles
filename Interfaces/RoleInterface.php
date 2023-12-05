@@ -43,7 +43,7 @@ interface RoleInterface
      * List all currently supported roles
      * @return array
      */
-    public function getSupportedRoles(): array;
+    public static function getSupportedRoles(): array;
 
     /**
      * Check if the current user has the "right" permission
